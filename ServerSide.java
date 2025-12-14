@@ -1,11 +1,3 @@
-//Name: Biniyam Teku
-//ID: ugr/34102/16
-
-//Compile the server and client --> javac ServerSide.java ClientSide.java
-//Run the server --> java ClientSide
-
-
-
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -84,3 +76,4 @@ class ClientConnection implements Runnable {
         out.println(message);
     }
 }
+
